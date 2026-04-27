@@ -10,9 +10,9 @@
       "type": "JsonWebKey2020",
       "controller": "did:web:jeffreygernigin-dev.github.io",
       "publicKeyJwk": {
-        "kty": "OKP",
-        "crv": "Ed25519",
-        "x": "YOUR_PUBLIC_KEY_HERE"
+        "kty": "RSA",
+        "n": "onDdvOzYsZ8Vhea7J4VpRI5iD754pT0iyn9o7Z3AuuqXi1UZYtX8BlybSZiGW8ZsI-uYQgDJy6-5F8z8ic7-tavYgjWF6wrhGGXTwdaK8JeqhcvQWVPvnlz2FEAlR8rJITBgVvFEvsM0BiHMB4tvte0mHJx3prTEWrDTjFxtFETn1KoJtcw13aJP5iJmPeQxoCjPwNfDT5wvSDG2GbFsWZSVqJbjrYEZp6dCyDWa3uhzbmuuqHRO6yO1pJ9XO4AnA-YGEUArS7atWearS3m8IKNDArbcvBHYpAWCk_g26NZQTL4ADMKTmGkKW-r_CAYICtZ1g1PYjyjxmNjbYWl4ww",
+        "e": "AQAB"
       }
     }
   ],
@@ -21,14 +21,5 @@
   ],
   "assertionMethod": [
     "did:web:jeffreygernigin-dev.github.io#owner"
-  ],
-  "service": [
-    {
-      "id": "did:web:jeffreygernigin-dev.github.io#registration",
-      "type": "InstitutionalCredential",
-      "serviceEndpoint": "https://jeffreygernigin-dev.github.io/credentials",
-      "description": "Trustee.Bene.JEFFREYMGERNIGIN",
-      "registrationAuthority": "JMG-BC-AUTH"
-    }
   ]
 }
